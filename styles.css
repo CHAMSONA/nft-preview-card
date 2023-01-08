@@ -1,0 +1,177 @@
+body {
+    background: #0D192C;
+}
+
+.container {
+    width: 350px;
+    height: 596px;
+    margin: 0 auto;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+    padding-top: 0.1px;
+}
+
+.image-container {
+    width: 302px;
+    height: 302px;
+    margin: 24px;
+    border-radius: 8px;
+}
+
+.equilibrium {
+    width: 302px;
+    height: 302px;
+    border-radius: 8px;
+}
+
+.icon-view {
+    position: absolute;
+    left: 48.1%;
+    top: 23.8%;
+    opacity: 0;
+}
+
+.equilibrium:active ,
+.image-container:active ,
+.icon-view:active  {
+    background: #00FFF8;
+    opacity: 0.5;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.icon-view:hover ,
+.equilibrium:hover ,
+.image-container:hover {
+    cursor: pointer;
+
+}
+.icon-view:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-left: 24px;
+}
+
+h1:hover {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+h1:active {
+    color: #00FFF8;
+    transition: 0.3s;
+}
+
+.description {
+    margin: 24px;
+    margin-top: 16px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+}
+
+.eth-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon-etherium {
+    margin: 1px 6.49px 30.57px 24px;
+}
+
+.eth-amount {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #00FFF8;
+    margin: 0;
+    
+}
+
+.icon-clock {
+    width: 13.33px;
+    height: 13.33px;
+    margin: 4.01px 9.03px 0px 112.15px;
+
+
+}
+
+.time {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+    margin: 0;
+    margin-right: 26px;
+    margin-bottom: 24px;
+}
+
+.line {
+    width: 302px;
+    height: 1px;
+    background: #2E405A;
+    margin: 0 auto;
+}
+
+.author {
+    display: flex; 
+    flex-direction: row;
+    
+}
+
+.avatar {
+    width: 33px;
+    height: 33px;
+    border-radius: 17px;
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+    margin: 16px 16px 32px 24px;
+}
+
+.author-name {
+    margin-top: 22px;
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+}
+
+span {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+span:hover {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+span:active {
+    color: #00FFF8;
+    transition: 0.3s;
+}
+
